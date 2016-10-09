@@ -37,6 +37,7 @@ dar a edit y en android añadir el FCM API Key del proyecto firebase google mens
 ir al proyecto ionic.io API Keys y crear un nuevo API Token
 
 crear archivo envio_push.sh y pegar
+
 	curl --request POST \
     --url https://api.ionic.io/push/notifications \
     -d '{
@@ -62,4 +63,5 @@ crear archivo envio_push.sh y pegar
     --header 'Content-Type: application/json' \
 
 ejecutar
+
 	bash envio_push.sh
